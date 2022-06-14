@@ -1,0 +1,228 @@
+
+p {
+    color: white;
+} 
+a {
+    text-decoration: none;
+}
+#url {
+    background: no-repeat center url(./Python-Web-Development.gif);
+    padding: 15% 29%;
+    width: 0;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.h3 {
+    margin: 2% 5% 2% 0;
+    margin-inline-start: 10%;
+    color: #ffff;
+}
+.button {
+    background-color: purple;
+    border-radius: 15px;
+    float: left;
+    color: #ffff;
+    text-decoration: none;
+}
+.p-h3 {
+	margin-inline-start: 10%;
+	color: #ffff;
+}
+
+
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+    
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+    /* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+    
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+    
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 4s ease;
+}
+    
+.active {
+    background-color: #717171;
+}
+    
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+    
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+    
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+    
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+
+
+/* boxs */
+.dore {
+    background-color: rgb(234, 101, 206);
+    padding-bottom: 5%;
+    border-radius: 20px 20px 0 0;
+}
+.dore a{
+    background: purple;
+    float: left;
+    color: #ffff;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+.dore > img {
+    display: inline-block;
+    margin-right: 3%;
+}
+.pad {
+    background: linear-gradient(250deg, #aa076b,#c20a7c, #7f077c);
+}
+.box {
+    background-color: purple;
+    border-radius: 15px;
+    box-shadow: 0 0 13px 0 black;
+    display: inline-block;
+    line-height: 1.8em;
+}
+.img-box {
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0px 9px 13px 0 black;
+    margin: -9% 5% 2%;
+    
+}
+.box img:hover {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+    -webkit-transition: .8s ease-in-out;
+	transition: .5s ease-in-out;
+    transition: .5s ease-out;
+}
+.a-box {
+    font-size: 1.3em;
+    color: white;
+    display: flex;
+    justify-content: center;  
+    margin-top: 5%; 
+}
+.box a:hover {
+    color: gold;
+}
+.t-a {
+    color: #ffff;
+    border-radius: 10px;
+    padding: 1% 1.5%;
+    background-color: red;
+    float: left;
+    margin: 5%;
+}
+.box p {
+    color: #ffff;
+    font-size: 1.1em;
+    margin: 2% 4% auto;
+}
+.p2 {
+    line-height: 7rem;
+    float: left;
+}
+.h5 {
+    line-height: 7rem;
+    font-size: 1.5em;
+    color: white;
+    margin-right: 4%;
+    float: right;
+}
+.flex {
+    background: radial-gradient(#ff6e7f,#ec63e3);
+    padding-bottom: 10%;
+    border-radius: 0 0 20px 20px;
+}
+
+.box-a {
+    text-align: center;
+    background: radial-gradient(#AA076B, #61045F);
+    color: white;
+    padding: 1% 6% 6% 6%;
+    margin: 5%;
+    border-radius:20px;
+    font-size: 1.2em;
+}
+
+.box-a > a {
+	display: inline-block;
+	background-color: blueviolet;
+	border: 1px solid #ffff;
+	border-radius: 10px;
+	margin-top: 0.5%;
+	color: white;
+}
+
+/* footer */
+
+
+.footer {
+    padding: 15%;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 360px;
+    padding: 0 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #fff;
+    text-align: right;
+    background: no-repeat center url(./footer.svg);
+      background-attachment: scroll;
+      background-size: auto;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.footer-h4{
+    color: #ffff;
+    display: flex;
+    justify-content: center;  
+}

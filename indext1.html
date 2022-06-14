@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آموزش برنامه نویسی</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./indext1.html">
+    <link rel="stylesheet" href="./meno.css">
+    <link rel="stylesheet" href="./css/asli.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="box.js"></script>
+</head>
+<body dir="rtl">
+
+    <header id="header">
+            
+        <nav class="nav">
+            <!-- <a href="#" class="header__icon" id="header__icon"></a> -->
+            <a href="./indext1.html"><img class="header__logo" src="./iran.nevis.png" alt="logo"></a>
+            <p id="p1">شرکت ایران نویس</p>
+            <nav class="menu">
+                <a href="#">دوره ها</a>
+                <a href="./darbare ma.html">درباره ما</a>
+                <a href="./moshtari.html">نظر مشتریان</a>
+                <a href="indext.html">ثبت نام</a>
+                    
+                <form class="form" method="post">
+                    <button><i class="fa fa-search"></i></button>
+                    <input type="text" name="search" placeholder="جستوجو...">
+                </form>
+        </nav>            
+    </header>
+    
+
+    <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <p style="display: flex; justify-content: center;">شرکت ایران نویس</p>
+            <a class="active">Logo</a>
+            <div id="myLinks">
+                <a href="#news">دوره ها</a>
+                <hr>
+                <a href="./darbare ma.html">درباره ما</a>
+                <hr>
+                <a href="./moshtari.html">نظر مشتریان</a>
+                <hr>
+                <a href="./indext.html">ثبت نام</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
+    </div>
+        
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+        }
+    </script>
+
+    <div id="url"></div>
+    <div class="pad">
+        <h3 class="h3">ما در اینجا چه کار می کنیم؟</h3>
+        <p class="p-h3">سلام دوستان امیدوارم حالتون عالیییییییی باشه. <br>هدف ما از طراحی این سایت و تولید محتوا در این سایت این است که شما کار با زبان های برنامه نویسی مختلف<br>را یادبگیرید و بتوانید با به کار گیری دستورات مختلف برنامه کاربردی بنویسید . <br>مانند: طراحی وب ،اپلیکیشن و... .</p>
+    </div>
+
+    
+    <div id="tel">
+        <a href="tel:+98 9918301779" ><img class="tel-img" src="./css/phone-call.png" alt=""></a>
+        <br>
+        <a class="tel-a-p" href="tel:+98 9918301779" >ارتباط با ما</a>
+    </div>
+
+    <!-- slideshow-container -->
+    <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="./cmpvbnz9cd1c.jpeg" class="img-r" style="width:100%;">
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="./css/index.jpg" class="img-r" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="./css/Python-Web-Development.gif" class="img-r" style="width:100%">
+    </div>
+    </div>
+    <br>
+    <div style="text-align:center; margin-bottom: 5%;">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+    <!-- boxs -->
+    <div class="dore">
+        <img src="./css/Artboard 1.png" alt="دایره">
+        <h2>دوره ها</h2>
+        <a href="#"> تمام دوره ها</a>
+    </div>
+    <!-- دوره ها -->
+    <div class="flex">
+
+        <div class="box">
+            <a href="#"><img class="img-box" src="./cmpvbnz9cd1c.jpeg" alt="img"></a>
+            <a href="#" class="a-box">دوره جامع برنامه نویسی (python)</a>
+            <p>دوره برنامه نویسی با زبان پایتون <br>این دوره یکی از کامل ترین دوره های برنامه نویسی پایتون هست . ما ، در این دوره زبان پایتون رو از مقدمات تا پیشرفته به شما آموزش می دهیم و ...</p>
+            <p class="p2">500,000هزارتومان</p>
+            <a href="#" class="h5">مشاهده دوره</a>
+        </div>
+    
+
+        <div class="box">
+            <a href="#"><img class="img-box" src="./cmpvbnz9cd1c.jpeg" alt="img"></a>
+            <a href="#" class="a-box">دوره جامع برنامه نویسی (python)</a>
+            <p>دوره برنامه نویسی با زبان پایتون <br>این دوره یکی از کامل ترین دوره های برنامه نویسی پایتون هست . ما ، در این دوره زبان پایتون رو از مقدمات تا پیشرفته به شما آموزش می دهیم و ...</p>
+            <p class="p2">500,000هزارتومان</p>
+            <a href="#" class="h5">مشاهده دوره</a>
+        </div>
+
+        <div class="box">
+            <a href="#"><img class="img-box" src="./cmpvbnz9cd1c.jpeg" alt="img"></a>
+            <a href="#" class="a-box">دوره جامع برنامه نویسی (python)</a>
+            <p>دوره برنامه نویسی با زبان پایتون <br>این دوره یکی از کامل ترین دوره های برنامه نویسی پایتون هست . ما ، در این دوره زبان پایتون رو از مقدمات تا پیشرفته به شما آموزش می دهیم و ...</p>
+            <p class="p2">500,000هزارتومان</p>
+            <a href="#" class="h5">مشاهده دوره</a>
+        </div>
+
+        <div class="box">
+            <a href="#"><img class="img-box" src="./cmpvbnz9cd1c.jpeg" alt="img"></a>
+            <a href="#" class="a-box">دوره جامع برنامه نویسی (python)</a>
+            <p>دوره برنامه نویسی با زبان پایتون <br>این دوره یکی از کامل ترین دوره های برنامه نویسی پایتون هست . ما ، در این دوره زبان پایتون رو از مقدمات تا پیشرفته به شما آموزش می دهیم و ...</p>
+            <p class="p2">500,000هزارتومان</p>
+            <a href="#" class="h5">مشاهده دوره</a>
+        </div>
+    </div>
+    <!-- شروع برنامه نویسی -->
+    <div class="background">
+        <div class="box-a">
+            <h4>از کجا و چگونه برنامه نویسی را یاد بگیریم؟</h4>
+            <p>اگر به برنامه نویسی علاقه داری و نمی دونی چطور ، چگونه و از کجا شروع کنی این مقاله حتما خیلی به دردت می خوره. اگر دوست داری که شغل آیندت بشه برنامه نویسی حتما مطالعه کن.</p>
+            <a href="#">مشاهده مطالب</a>
+        </div>
+
+        <footer class="footer">
+
+            <div class="footer-h4">
+                    <div id="footer-ul">
+                    <h4>نمونه کار ها</h4> 
+                    <ul>
+                        <li class="li">طراحی سایت دانلود لینک</li>
+                        <li class="li">طراحی سایت فروشگاهی</li>
+                        <li class="li">طراحی سایت شرکت</li>
+                        <li class="li">طراحی سایت شخصی</li>
+                    </ul> 
+                </div>
+                <div id="footer-ul">
+                    <h4>آخرین آموزش ها</h4> 
+                    <ul>
+                        <li class="li">آموزش برنامه نویسی پایتون پیشرفته</li>
+                        <li class="li">آموزش برنامه نویسی Html</li>
+                        <li class="li">آموزش برنامه نویسی css</li>
+                        <li class="li">آموزش تمیز نویسی کد ها</li>
+                    </ul> 
+                </div>
+                <div id="footer-ul">
+                    <h4>ارتباط با ما</h4> 
+                    <ul>
+                        <li class="li"><a style="color: white;" href="tel:+98 9918301770">همراه: 9918301779 98+</a></li>
+                        <li class="li"><a style="color: white;" href="tel:031 55491904 ">تلفن ثابت: 55491904</a></li>
+                        <a href="#" class="li"><img src="./css/t.png" alt="telrgram addres"></a>
+                        <a href="#" class="li"><img src="./css/in.png" alt="instagram addres"></a>
+                        <li class="li">آدرس: کاشان ، خیابان 22 بهمن</li>
+                    </ul> 
+                </div>
+            </div>
+        <footer>
+    </div>
+</body>
+</html>

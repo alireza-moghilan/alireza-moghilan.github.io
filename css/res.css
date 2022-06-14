@@ -1,0 +1,141 @@
+@media only screen and (min-width: 320px) and (max-width: 750px){
+#margin-top {
+    margin-top: 20%;
+    text-align: center;
+    color: darkblue;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: -8%;
+}
+.box-moshtari {
+	width: 70%;
+	margin-top: 10%;
+}
+#box-asli {
+    margin-top: 10%;
+    margin-bottom: -10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box-moshtari h3  {
+    font-size: 1.1em;
+}
+.box-moshtari p  {
+    font-size: 1.1em;
+}
+.box-moshtari audio {
+	width: 79%;
+}
+.button-submit {
+    padding: 2% 3.5% 2% 3.5%;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #ffff;
+}
+.box-submit p {
+	font-size: 1em;
+}
+.input-Opinion {
+	font-size: 1em;
+}
+.input-Opinion-width {
+    display: inline;
+    margin: 5% 0 5% 0; 
+    width: 49%;
+    height: 30px;
+}
+.file {
+    width: 50%;
+}
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1079px){
+    #margin-top {
+    margin-top: 20%;
+    text-align: center;
+    color: darkblue;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: -8%;
+}
+    #margin-top {
+    margin-top: 15%;
+    text-align: center;
+    color: darkblue;
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: -8%;
+}
+.box-moshtari {
+	width: 30%;
+	margin-top: 7%;
+}
+#box-asli {
+    margin-top: 10%;
+    margin-bottom: -10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box-moshtari h3  {
+    font-size: 1.1em;
+}
+.box-moshtari p  {
+    font-size: 1.1em;
+}
+.box-moshtari audio {
+	width: 79%;
+}
+.box-submit p {
+	font-size: 1.2em;
+}
+.box-submit p {
+	font-size: 1.2em;
+}
+.input-Opinion-width {
+    display: inline;
+    margin: 5% 0 5% 0; 
+    width: 30%;
+    height: 30px;
+}
+}
+
+@media only screen and (min-width: 1080px){
+    #margin-top {
+    margin-top: 2%;
+    text-align: center;
+    color: darkblue;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: -8%;
+}
+.box-moshtari {
+    width: 30%;
+}
+#box-asli {
+    margin-top: 10%;
+    margin-bottom: -10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box-moshtari h3  {
+    font-size: 1.4em;
+}
+.box-moshtari p  {
+    font-size: 1.1em;
+}
+.box-submit p {
+	font-size: 1.4em;
+}
+.input-Opinion-width {
+    display: inline;
+    margin: 5% 0 5% 0; 
+    width: 25%;
+    height: 37px;
+}
+}

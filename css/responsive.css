@@ -1,0 +1,530 @@
+@media only screen and (min-width: 350px) and (max-width: 650px){
+.p {
+    font-size: 0.7em;
+}
+a {
+    text-decoration: none;
+}
+#header > img {
+    width: 13%;
+    margin-top: 2%;
+}
+.sabt {
+    width: 80%;
+    margin: auto;
+}
+.sabt label input {
+    width: 45%;
+    margin: 0 5% auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 0.6em;
+    caret-color: red;
+}
+.sabt label p {
+    margin-right: 3%;
+    margin-bottom: 2%;
+    font-size: 0.79em;
+}
+.dore a {
+    padding: 2%;
+}
+.dore > img {
+    display: inline-block;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+.dore >h2 {
+    display: inline-block;
+    margin:3% 1% 0 0;
+    font-size: 1.2em;
+}
+.sabt label input [placeholder], [placeholder], *[placeholder]  {
+    color: rgb(132, 0, 255);
+    border-color: rgb(226, 43, 226);
+    border-style: groove;
+}
+.sabt {
+    width: 82%;
+    margin: auto;
+}
+.sabt  button {
+    margin: 5% 5%;
+}
+#p {
+    font-size: 0.7em;
+}
+.remember-me {
+    margin: 5% 3% 0 0;
+}
+/* واتساپ */
+
+#tel{
+    display: none;
+}
+
+.img-r {
+    height: 170px;
+    border-radius: 15px;
+}
+/* boxs */
+.flex {
+    text-align: center;
+}
+.box {
+    width: 88%;
+    margin-top: 15%;
+}
+.dore a{
+    font-size: 0.9em;
+    padding: 2%;
+}
+.dore > img {
+    width: 8%; height: 35px;
+}
+/* footer */
+.footer-h4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#footer-ul {
+    margin:4% 2% 0 4%;
+}
+#footer-ul >h4{
+    font-size: 1.5em;
+}
+#footer-ul {
+    margin-top: 12%;
+}
+.li{
+    font-size: 1.3em;
+    line-height: 170%;
+}
+#button2 {
+    background-color: red;
+    padding: 1.8% 2%;
+    border-radius: 7px;
+    margin: 0 5% 0 0;
+    border: 1px solid white;
+    border: 1px solid white;
+    box-shadow: 0px 0px 7px 0px rgb(68, 68, 68);
+    font-size: 0.8em;
+}
+.h1 {
+	font-size: 1.5em;
+}
+.submit-button {
+    background-color:green;
+    padding: 0.5% 2.2%;
+    border-radius: 7px;
+    border: 1px solid
+    white;
+    box-shadow: 0px 0px 7px 0px
+    rgb(68, 68, 68);
+    font-size: 1em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color:#ffff;
+}
+.box-a > a {
+	padding: 2.5%;
+    font-size: 0.9em;
+}
+}
+@media only screen and (min-width: 550px) and (max-width: 650px){
+.flex {
+    padding: 12%;
+}
+.img-r {
+    height: 170px;
+    border-radius: 15px;
+}
+.dore a{
+    font-size: 1.2em;
+    padding: 2%;
+}
+.dore > img {
+    width: 9%; height: 50px;
+}
+#button2 {
+    background-color: red;
+    padding: 1.8% 2%;
+    border-radius: 11px;
+    margin: 0 5% 0 0;
+    border: 1px solid white;
+    border: 1px solid white;
+    box-shadow: 0px 0px 7px 0px rgb(68, 68, 68);
+    font-size: 0.8em;
+}
+.h1 {
+	font-size: 2em;
+}
+.box-a > a {
+	padding: 2.5%;
+    font-size: 0.9em;
+}
+}
+
+@media screen and (min-width: 651px) and (max-width: 1000px) {
+#header > img {
+    width: 11%;
+}
+.sabt label input {
+    width: 35%;
+    margin: 0 5% auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1em;
+    caret-color: red;
+}
+.sabt label p {
+    margin-right: 3%;
+
+}
+.sabt label input [placeholder], [placeholder], *[placeholder]  {
+    color: rgb(132, 0, 255);
+    border-color: rgb(226, 43, 226);
+    border-style: groove;
+}
+.sabt {
+    width: 80%;
+    margin: auto;
+}
+.sabt  button {
+    margin: 5% 5%;
+}
+.p-h3 {
+    font-size: 1em;
+    line-height: 2;
+    width: 88%;
+}
+/* واتساپ */
+
+#tel{
+    position: fixed;
+    left: 0;
+    right: 1%;
+    top: 480px;
+    z-index: 999;
+}
+.tel-img {
+    border-radius: 1000px 1000px 1000px 1000px;
+    animation: pulse 1.2s infinite;
+    margin-bottom: 1%;
+    width: 7%;
+}
+.tel-img:hover {
+    transform: rotate(20deg);
+    transition: .50s;
+}
+.tel-a-p {
+    text-decoration: none;
+    margin-right: 2%;
+    padding: 0.5%;
+    background-color: rgb(211, 27, 97);
+    color: white;
+    border-radius: 1000px;
+    animation: pulse 1.2s infinite;
+}
+@keyframes pulse {
+    0% {box-shadow: #ff0062 0 0 0 0;}
+    85% {box-shadow: #ff280000 0 0 0 20px;}
+}
+
+/* boxs */
+.dore a{
+    font-size: 1.3em;
+    padding: 2%;
+}
+.dore > img {
+    width: 8%; height: 50px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box {
+    margin: 7% 1% 0;
+    width: 47%;
+}
+.li{
+    font-size: 1.3em;
+    margin-bottom: 2%;
+}
+.box-a > a {
+	padding: 2%;
+    font-size: 1em;
+}
+.box-a > p {
+    font-size: 1em;
+    line-height: 2;
+}
+/* footer */
+#footer-ul {
+    margin:4% 2% 0 -1%;
+}
+#footer-ul >h4{
+    font-size: 1.4em;
+}
+.li{
+    font-size: 1.3em;
+    line-height: 210%;
+}
+.dore > img {
+    display: inline-block;
+    margin-right: 3%;
+}
+.dore >h2 {
+    display: inline-block;
+    margin:3% 1% 0 0;
+    font-size: 1.2em;
+}
+#footer-ul {
+    margin-top: 12%;
+}
+.img-r {
+    height: 180px;
+    border-radius: 15px;
+}
+#button2 {
+    background-color: red;
+    padding: 1.8% 2%;
+    border-radius: 11px;
+    margin: 0 5% 0 0;
+    border: 1px solid white;
+    border: 1px solid white;
+    box-shadow: 0px 0px 7px 0px rgb(68, 68, 68);
+    font-size: 1.2em;
+}
+.h1 {
+	font-size: 2em;
+}
+}
+
+
+@media screen and (min-width: 1001px){
+.h3 {
+    font-size: 1.5em;
+}
+.p-h3 {
+    font-size: 1.25em;
+    line-height: 2;
+    width: 88%;
+}
+.pad {
+    border-radius:450px 95px ;
+    padding: 3% 0 6% 0;
+    margin: 5% 2% 8% 2%;
+}
+#url {
+    margin:6% auto auto auto;
+}
+
+#button2 {
+    background-color: red;
+    padding: 1.8% 2%;
+    border-radius: 11px;
+    margin: 0 5% 0 0;
+    border: 1px solid white;
+    border: 1px solid white;
+    box-shadow: 0px 0px 7px 0px rgb(68, 68, 68);
+    font-size: 1.1em;
+}
+#button2 a:hover {
+    background-color: brown;
+}
+.submit-button {
+    background-color: green;
+    padding: 1.5% 3.2%;
+    border-radius: 11px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 7px 0px rgb(68, 68, 68);
+    font-size: 1.1em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #ffff;
+}
+.submit-button input:hover {
+    background: #51ff00;
+}
+#header > img {
+    width: 9%;
+}
+.sabt label input {
+    width: 28%;
+    margin: -7% 5% auto -15%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 0.8em;
+    caret-color: red;
+}
+.sabt label p {
+    margin-right: 3%;
+}
+.sabt label input [placeholder], [placeholder], *[placeholder]  {
+    color: rgb(132, 0, 255);
+    border-color: rgb(226, 43, 226);
+    border-style: groove;
+    }
+.sabt {
+    width: 51%;
+    margin: auto;
+}
+.sabt  button {
+    margin: 5% 5%;
+}
+
+
+.img-r {
+    height: 300px;
+    border-radius: 15px;
+}
+/* واتساپ */
+
+#tel{
+    position: fixed;
+    left: 0;
+    right: 1%;
+    top: 80%;
+    z-index: 999;
+}
+.tel-img {
+    border-radius: 1000px 1000px 1000px 1000px;
+    animation: pulse 1.2s infinite;
+    margin-bottom: 1%;
+    width: 5%;
+}
+.tel-img:hover {
+    transform: rotate(20deg);
+    transition: .50s;
+}
+.tel-a-p {
+    text-decoration: none;
+    margin-right: 2%;
+    padding: 0.5%;
+    background-color: rgb(211, 27, 97);
+    color: white;
+    border-radius: 1000px;
+    animation: pulse 1.2s infinite;
+}
+@keyframes pulse {
+    0% {box-shadow: #ff0062 0 0 0 0;}
+    85% {box-shadow: #ff280000 0 0 0 20px;}
+}
+
+/* boxs */
+.dore a{
+    font-size: 1.4em;
+    padding: 1.2%;
+}
+.dore > img {
+    width: 5%; height: 61px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.box {
+    margin: 5% 1% 0;
+}
+.dore > img {
+    display: inline-block;
+    margin-right: 3%;
+}
+.dore >h2 {
+    display: inline-block;
+    margin:3% 1% 0 0;
+    font-size: 1.7em;
+}
+/* شروع برنامه نویسی */
+.box-a > p {
+  font-size: 1.4em;
+  line-height: 2;
+}
+.box-a > h4 {
+    font-size: 1.7em;
+}
+.box-a > a {
+	padding: 1%;
+    font-size: 1.3em;
+}
+
+
+/* footer */
+
+.footer h4 {
+    font-size: 2em;
+
+}
+.li{
+    font-size: 1.5em;
+    margin-bottom: 10%;
+}
+#footer-ul {
+    margin-top: 8%;
+    margin-right: 5%;
+}
+.h1 {
+	font-size: 2.5em;
+}
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 650px) {
+#header>h1 {
+    display: none;
+}
+#header>img {
+    margin-right: 85%;
+}
+.pad {
+    border-radius:88px 5px;
+    padding: 3% 0 5% 0;
+    margin:6% 2% 6% 2%;
+}
+.p-h3 {
+    font-size: 1em;
+    line-height: 2;
+}
+#url {
+    margin:10% auto auto auto;
+}
+.box-a > h4 {
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+.box-a > p {
+  font-size: 0.8em;
+  line-height: 1.5;
+}
+}
+
+
+
+
+@media screen and (min-width: 651px) and (max-width: 1000px) {
+#url {
+    margin:10% auto auto auto;
+}
+.h3 {
+    font-size: 1.2em;
+}
+c
+.h3-dore {
+    font-size: 1.5em;
+}
+.pad {
+    border-radius:450px 95px ;
+    padding: 3% 4% 5% 5%;
+    margin: 6% 2% 6% 2%;
+}
+.submit-button {
+    background-color: green;
+    padding: 1.5% 3.2%;
+    border-radius: 11px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 7px 0px rgb(68, 68, 68);
+    font-size: 1.1em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #ffff;
+}
+}
