@@ -1,0 +1,107 @@
+body {
+    direction: rtl;
+}
+.box-moshtari {
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 7px -4px black;
+    margin: 2%;
+    padding: 1%;
+}
+.box-moshtari:hover {
+    box-shadow: 0px 0px 10px 0px black;
+}
+.box-moshtari img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.box-moshtari h3  {
+    display: flex;
+    justify-content: center;
+}
+.box-moshtari p  {
+    color: rgb(58, 57, 57);
+    display: flex;
+    justify-content: center;
+}
+.box-moshtari audio  {
+    background-color: blueviolet;
+    border-radius: 15px;
+    margin: auto;
+    margin: 10%;
+    display: flex;
+}
+.box-submit {
+	/* animation: both; */
+	/* animation: alternate; */
+	margin-top: 12%;
+	background: linear-gradient(250deg, #ff1ba7,#fd57be, #ff34fa);
+	padding: 3% 3% 5% 0%;
+	font-style: normal;
+	font-weight: 900;
+	letter-spacing: 0.159em;
+	line-height: 257%;
+	border-radius: 15px;
+}
+
+.box-submit p {
+	color: black;
+	line-height: 16px;
+	letter-spacing: 1.09px;
+	font-weight: 900;
+}
+.input [placeholder], [placeholder], *[placeholder]  {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 0.3%;
+}
+.button-submit {
+    padding: 0.8% 2% 0.8% 2%;
+    background-color: green;
+    border-radius: 15px;
+    font-size: 1.3em;
+    font-family: iran;
+    color: #ffff;
+}
+.button-submit:hover {
+    box-shadow: 0px 0px 7px 4px whitesmoke;
+}
+/* footer */
+.footer {
+  padding: 15%;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 360px;
+  padding: 0 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #fff;
+  text-align: right;
+  background: no-repeat center url(./footer.svg);
+    background-attachment: scroll;
+    background-size: auto;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.footer-h4 {
+	color: #ffff;
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+}
+.textarea {
+	width: 97%;
+	height: 180px;
+}
+.input-Opinion {
+	color: rgb(132, 0, 255);
+	border-color: rgb(226, 43, 226);
+	border-style: groove;
+	font-size: 1.4em;
+}
+.file {
+    background: radial-gradient(rgb(209, 15, 209),rgb(201, 0, 111));
+    padding: 1%;
+    border-radius: 15px;
+    color: aqua;
+}
